@@ -245,14 +245,14 @@ table.table1　tr:last-child {
   font-family:"Architects Daughter", cursive;
   color: #cc3366;
   font-weight: bold;
-  margin-left: 150px;
+  margin-left: 240px;
   margin-bottom: 10px;
   position: absolute;
   top: 105px;
 }
 
 .blog-second {
-  margin-left: 150px;
+  margin-left: 240px;
   position: absolute;
   top: 125px;
 }
@@ -262,16 +262,20 @@ table.table1　tr:last-child {
   text-align: center;
   margin: 100px auto 0;
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
 }
 
 .blog-get {
-  width: 30%;
-  border-top: 1px solid #ebebeb;
-  border-radius: 6px;
+  width: 20%;;
+  margin: 0 15px;
+}
+
+.img-4 {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
 }
 
 .img-4 img {
@@ -289,10 +293,49 @@ table.table1　tr:last-child {
   text-align: left;
   width: 35px;
   position: absolute;
+  border-radius: 10px 0 0 0;
+}
+
+.blog-content {
+  border-radius: 10px;
 }
 
 .blog-content-1 {
   background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding: 20px 0;
+  margin-bottom: 70px;
+}
+
+.blog-content-4 {
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.card-tag {
+  display: inline-flex;
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-COACH {
+  display: inline-flex;
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.blog-btn {
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid #cc3366;
+  color: #cc3366;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.blog-btn-1 {
+  text-align: center;
 }
 
 .table-2 {
@@ -341,6 +384,7 @@ table.table-2 th {
   display: flex;
   display: block;
   height: 200px;
+  width: 100%;
  
 }
 
@@ -348,7 +392,7 @@ table.table-2 th {
   display: flex;
   display: block;
   height: 200px;
-
+  width: 100%;
  
 }
 
@@ -429,7 +473,7 @@ table.table-2 th {
 small {
  
  display: block;
- width: 80%; 
+ width: 100%; 
  background-color: #ebebeb;
  text-align: center;
  margin: 50px auto;
